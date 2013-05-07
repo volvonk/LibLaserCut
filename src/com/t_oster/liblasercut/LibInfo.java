@@ -27,7 +27,7 @@ import com.t_oster.liblasercut.drivers.*;
  */
 public class LibInfo
 {
-  private static String VERSION = "visicut1.5";
+  private static String VERSION = "visicut1.7";
   
   public static String getVersion()
   {
@@ -43,6 +43,7 @@ public class LibInfo
       Lasersaur.class,
       Dummy.class,
       MPC6515Cutter.class
+      IModelaMill.class
     };
   }
 }
